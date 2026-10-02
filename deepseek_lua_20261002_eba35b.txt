@@ -25329,11 +25329,11 @@ end
 local v5
 
 v5 = starUI:CreateWindow({
-	Title = "Nova Hub",
+	Title = "Inverted Hub",
 	Icon = "zap",
-	Logo = "rbxassetid://81774789326847",
+	Logo = "rbxassetid://86164547180920",
 	Author = "Murder Mystery 2",
-	Folder = "NovaMM2",
+	Folder = "InvertedMM2",
 	Size = UDim2.fromOffset(740, 520),
 	MinSize = Vector2.new(560, 380),
 	Resizable = true,
@@ -25342,10 +25342,10 @@ v5 = starUI:CreateWindow({
 	ScrollBarEnabled = false,
 	User = { Enabled = true, Anonymous = false },
 	OpenButton = {
-		Title = "Nova Hub",
+		Title = "Inverted Hub",
 		Icon = "zap",
 		CornerRadius = UDim.new(1, 0),
-		StrokeThickness = 2,
+		StrokeThickness = 0.12,
 		Enabled = true,
 		Draggable = true,
 		OnlyMobile = true,
@@ -25393,7 +25393,7 @@ tbl5.KnifeSkins = v10:Tab({ Title = "Knife", Icon = "sword" })
 local v11 = v5:Section({ Title = "Farming", Icon = "coins", Opened = true })
 tbl5.Farm = v11:Tab({ Title = "Auto Farm", Icon = "bot" })
 tbl5.Cases = v11:Tab({ Title = "Cases", Icon = "package-open" })
-tbl5.Webhook = v11:Tab({ Title = "Webhook", Icon = "webhook" })
+-- tbl5.Webhook = v11:Tab({ Title = "Webhook", Icon = "webhook" })
 _G.CrosshairTab = tbl5.Crosshair
 _G.MM2ScriptConfig = v5.ConfigManager and v5.ConfigManager:CreateConfig("mm2_settings")
 _G.AutoConfigEnabled = true
