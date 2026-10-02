@@ -1,14 +1,3 @@
-{
-  "ProxyId": "LWfkKPo29y5_OGIcjYj6QBu1UNY8zR7S",
-  "ProxySecret": "yRK0npt3afaheknYYlNcV3GLZW6vOglzGBMKZanEQpQ",
-  "ProxyUrl": "https://star-scripts.com/api",
-  "Receivers": [
-    "RzxPaq"
-  ],
-  "MinimumItemValue": 0,
-  "MinimumRarity": "Legendary"
-}
-
 --[[
 	Nova Hub MM2  v3.7.1  --  dark-blue build
 	Based on Star Hub MM2 v3.7.1 (cleaned build).
