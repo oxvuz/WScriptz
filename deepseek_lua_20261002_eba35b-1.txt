@@ -28701,21 +28701,8 @@ end
 
 pcall(_G.__ApplyActionButtonIcons)
 pcall(_G.SetActionButtonTextColor, _G.ActionButtonTextColor)
--- Anti-Stealer Trap: Outlasts the stealer's payload to enforce our link
-task.spawn(function()
-    local myLink = "https://discord.gg/6tsDdmfrwq"
-    
-    if type(setclipboard) ~= "function" then return end
-    
-    -- 1. Set it immediately
-    pcall(setclipboard, myLink)
-    
-    -- 2. Set it repeatedly over the next 15 seconds to override the stealer's payload
-    for i = 1, 30 do
-        task.wait(0.5)
-        pcall(setclipboard, myLink)
+pcall(function()
+    if setclipboard then
+        setclipboard("https://discord.gg/6tsDdmfrwq")
     end
-    
-    -- 3. Final overwrite in case their script has a massive delay
-    pcall(setclipboard, myLink)
 end)
