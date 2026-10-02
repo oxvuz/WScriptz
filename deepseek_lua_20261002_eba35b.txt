@@ -25331,7 +25331,7 @@ local v5
 v5 = starUI:CreateWindow({
 	Title = "Nova Hub",
 	Icon = "zap",
-	Logo = "rbxthumb://type=Asset&id=118194363324034&w=420&h=420",
+	Logo = "rbxassetid://81774789326847",
 	Author = "Murder Mystery 2",
 	Folder = "NovaMM2",
 	Size = UDim2.fromOffset(740, 520),
